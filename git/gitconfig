@@ -1,0 +1,17 @@
+[user]
+	name = Guohua Wu
+	email = buptwugh@gmail.com
+	signingkey = 0x4E511657
+[credential]
+	helper = cache
+[color]
+	ui = auto
+[core]
+	autocrlf = input
+[merge]
+	tool = meld
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status

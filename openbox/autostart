@@ -1,0 +1,29 @@
+# start pcmanfm for desktop
+# pcmanfm --desktop &
+
+# start conky
+# conky --daemonize
+
+# set wallpaper
+#feh --bg-tile /home/tom/Pictures/wallpaper/dual.png &
+feh --bg-scale ~/Pictures/wallpaper/black.jpg &
+
+# A panel for good times
+fbpanel &
+
+# load x resources
+xrdb -load /home/tom/.Xresources &
+
+# screen saver
+xscreensaver -no-splash &
+
+# start goagent
+/home/tom/bin/goagent.sh
+
+# start nutstore
+# (sleep 30 && nohup ~/.nutstore/dist/bin/nutstore-pydaemon.py >/dev/null 2>&1) &
+# start dropbox
+dropbox &
+
+# start urxvtd daemon
+# urxvtd --quiet --opendisplay --fork &
